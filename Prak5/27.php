@@ -1,11 +1,13 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 
 <body>
 
   <?php
-  $x = 10;
-  echo ++$x;
+  print_r($_SESSION);
   ?>
 
 </body>

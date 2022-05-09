@@ -4,8 +4,7 @@
 <body>
 
   <?php
-  $x = 10;
-  echo ++$x;
+  echo "The time is " . date("h:i:sa");
   ?>
 
 </body>

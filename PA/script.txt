@@ -1,0 +1,1 @@
+select students.name, class.name, class.decription, teachers.name FROM student_classes JOIN class on student_classes.class_id = class.id join teachers on class.teacher_id = teachers.id join students on student_classes.student_id = students.id where students.id = 4;

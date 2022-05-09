@@ -3,10 +3,7 @@
 
 <body>
 
-  <?php
-  $x = 10;
-  echo ++$x;
-  ?>
+  © 2010-<?php echo date("Y"); ?>
 
 </body>
 
